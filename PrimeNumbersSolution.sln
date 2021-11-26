@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumbers", "PrimeNumbers\PrimeNumbers.csproj", "{838D00D9-60A4-4059-B5AF-90F785F92F34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{A913B467-4612-485A-BB70-D93A23657A1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{929C3D12-A048-429D-83EA-766AFBC6B91D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{838D00D9-60A4-4059-B5AF-90F785F92F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{838D00D9-60A4-4059-B5AF-90F785F92F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{838D00D9-60A4-4059-B5AF-90F785F92F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{838D00D9-60A4-4059-B5AF-90F785F92F34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A913B467-4612-485A-BB70-D93A23657A1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A913B467-4612-485A-BB70-D93A23657A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A913B467-4612-485A-BB70-D93A23657A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A913B467-4612-485A-BB70-D93A23657A1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929C3D12-A048-429D-83EA-766AFBC6B91D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929C3D12-A048-429D-83EA-766AFBC6B91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929C3D12-A048-429D-83EA-766AFBC6B91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929C3D12-A048-429D-83EA-766AFBC6B91D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EA3FC79-C212-4FED-9776-EF9E3B6949DD}
+	EndGlobalSection
+EndGlobal
