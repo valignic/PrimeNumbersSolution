@@ -68,10 +68,21 @@ namespace PrimeNumbers
                     {
                         lerror.Text = "Entrada no válida";
                     }
+                    else if (Convert.ToInt32(tbfirst.Text) <= 0)
+                    {
+                        lerror.Text = "Numero inicial minimo es '1'";
+                    }
                     else
                     {
-                        pn.SetAll();
-                    }
+                        if (Convert.ToInt32(tbfirst.Text) >= Convert.ToInt32(tblast.Text))
+                        {
+                            lerror.Text = "Rango no válido";
+                        }
+                        else
+                        {
+                            pn.SetAll();
+                        }
+                    }                    
                     break;
                 default:
                     lerror.Text = "Por favor, seleccione una opcion válida - Finalizado 26-11-2021 01:55:57 - Valignic";

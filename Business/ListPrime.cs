@@ -66,5 +66,6 @@ namespace Business
         {
             return primeN.lastPrime();
         }
+       
     }
 }
